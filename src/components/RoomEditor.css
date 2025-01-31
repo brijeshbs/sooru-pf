@@ -1,0 +1,101 @@
+.room-editor {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    width: 280px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 100;
+  }
+  
+  .editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .editor-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .delete-room-button {
+    background: none;
+    border: none;
+    color: #ff4444;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .delete-room-button:hover {
+    background: #ffebee;
+  }
+  
+  .editor-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .form-group label {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .editor-input {
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .editor-input:focus {
+    border-color: #2196F3;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+  }
+  
+  .dimensions-group,
+  .position-group {
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+  }
+  
+  .dimensions-group h4,
+  .position-group h4 {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 8px 0;
+  }
+  
+  .input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  
+  .measurements-info {
+    background: #f5f5f5;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  
+  .measurements-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+  }
